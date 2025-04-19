@@ -43,6 +43,7 @@ public:
 		}
 		return fuel_level;
 	}
+	
 	double give_fuel(double amount)
 	{
 		fuel_level -= amount;
